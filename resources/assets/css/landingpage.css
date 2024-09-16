@@ -1,0 +1,193 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.page_layout {
+  height: 100%;
+  max-height: 750px;
+}
+
+.startlabel {
+  font-size: 32px;
+  font-weight: bold;
+  word-spacing: 4px;
+  color: #18527b;
+  font-family: "Inter", sans-serif;
+  margin-top: 4rem;
+}
+
+.courseslabel {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  margin-left: 8rem;
+  margin-top: 1.5rem;
+}
+
+
+
+.container {
+  position: relative;
+  /* Ensure the container itself is positioned relatively */
+  padding: 10px;
+  /* Add padding for spacing around the link */
+}
+
+.container a {
+  position: absolute;
+  /* Position the link absolutely within the container */
+  top: 4rem;
+  /* Distance from the top */
+  right: 10px;
+  /* Distance from the right */
+  background-color: #ffbc36;
+  font-family: "Inter", sans-serif;
+  font-size: .9rem;
+  font-weight: 600;
+  color: white;
+  padding: 8px 16px;
+  /* Padding inside the link for better clickability */
+  text-decoration: none;
+  /* Remove underline */
+  border-radius: 4px;
+  /* Rounded corners for button appearance */
+  transition: background-color 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+
+.container a:hover {
+  background-color: #ffca5f;
+  /* Change background color on hover */
+}
+
+
+.fa-plus {
+  font-size: inherit;
+  color: white;
+}
+
+.sidenav hr {
+  border: 1px solid;
+  color: white;
+}
+
+/* Cards */
+.card {
+  border: none !important;
+  font-family: "Inter", sans-serif;
+  margin: 12px;
+
+}
+
+.course_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+  padding: 0 px 20px 0 20px;
+  /* Remove top padding, equal padding for left and right */
+
+
+}
+
+.container-course {
+  align-items: center;
+  margin-left: auto;
+  /* Center the container horizontally */
+  margin-right: auto;
+  /* Center the container horizontally */
+  width: 77%;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.card-body {
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.3s ease;
+
+
+}
+
+.card-text.expanded {
+  max-height: none;
+}
+
+.card h5 {
+  color: #18527b;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1px;
+  margin-left: .1rem;
+
+
+}
+
+.card-text {
+  text-align: left;
+  font-size: .8rem;
+  margin-left: -.9rem;
+  color: gray;
+  margin-left: .1rem;
+}
+
+.card a {
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+  margin-left: .1rem;
+}
+
+.card a:hover {
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.course_poster {
+  padding: 12px 0 8px 0;
+  align-self: center;
+  max-width: 100%;
+  height: 100%;
+}
+
+.course_img {
+  text-align: center;
+}
+
+.course_code {
+  font-size: .8rem;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 3px;
+
+  margin-left: .1rem;
+}
+
+.card-text {
+  overflow: hidden;
+  height: 4rem;
+  display: -webkit-flex;
+  margin-left: .1rem;
+  -webkit-box-orient: vertical;
+}
+
+.read-more-link {
+  color: gray;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+.card .viewcoursebtn {
+  font-family: "Inter", sans-serif;
+  border: 0;
+  background-color: #38acff;
+  color: white;
+  margin-bottom: 1rem;
+}

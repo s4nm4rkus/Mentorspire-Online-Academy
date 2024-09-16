@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh; /* Ensures the body is at least the full height of the viewport */
+    box-sizing: border-box;
+    background: rgb(24, 82, 120);
+    background: linear-gradient(15deg, rgba(24, 82, 120, 1) 33%, rgba(44, 150, 225, 1) 88%);
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+}
+
+
+
+.container {
+     margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80%;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.card {
+    width: 30rem;
+    border: 0;
+    padding-bottom: 1rem;
+}
+
+.form-control {
+    font-size: 14px;
+    width: 20rem;
+    margin-top: .5rem;
+    border-radius: 40px;
+    background-color: #ebebeb;
+    border: none;
+}
+
+.label2 {
+    margin-left: -15rem;
+    font-size: 13px;
+}
+
+.labelemail {
+    margin-left: -15rem;
+    font-size: 13px;
+}
+
+
+.label {
+    margin-left: -16.5rem;
+    font-size: 13px;
+}
+
+.loginbtn {
+    font-size: 17px;
+    margin-top: 3rem;
+    width: 20rem;
+    border: 0;
+    background: linear-gradient(90deg, rgba(24, 82, 120, 1) 36%, rgba(44, 150, 225, 1) 100%);
+}
+
+.btn-link {
+    width: 140px;
+    font-size: 13px;
+    padding: 0;
+    margin-left: 11rem;
+    text-decoration: none;
+    color: black;
+}
+
+.registerlink {
+    width: 60px;
+    font-size: 13px;
+    padding: 0;
+    text-decoration: none;
+    text-align: start;
+    color: #2C96E1;
+}
+
+.form-check-input {
+    margin-top: 8px;
+    background-color: #fff;
+    border-color: rgb(136, 136, 136);
+    text-align: center;
+}
+
+.form-check-label {
+    margin-top: 6px;
+    width: 16rem;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    color: black;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+
+.loginlbl {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.labelreglink {
+    text-align: center;
+    font-size: 13px;
+}
+
+.namecard,
+.passwordcard {
+    display: none;
+}
+
+.back1 {
+    background: none;
+    border: 0;
+    margin-left: 1rem;
+    font-size: 20px;
+    color: black;
+}
+
+.logoimg {
+    height: 9rem;
+    width: auto;
+}
+
+.invalid-feedback {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        border-radius: 0;
+        padding: 0%;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: 0%;
+        top: 0;
+        bottom: 0;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+
+}

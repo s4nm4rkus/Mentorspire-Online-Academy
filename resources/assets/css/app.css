@@ -1,0 +1,51 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.navbar{
+    background-color: #ffffff;
+}
+
+.navbar-brand{
+    color: #ffffff;
+}
+
+.navbar-brand:hover{
+    color: #ffffff;
+}
+
+.nav-item a {
+    color: #0C517B; /* Default link color */
+    transition: color 0.3s ease; /* Smooth transition */
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: #0C517B; /* Darker shade of the original color on hover */
+}
+
+.nav-item a:active {
+    color: #0C517B; /* Even darker shade of the original color on click */
+}
+
+.btn-custom{
+    background-color: #0C517B;
+    color: #ffffff;
+}
+
+.btn-custom:hover {
+    background-color: #0C517B;
+}
+
+.btn-custom:active {
+    background-color: #0C517B;
+}
+
+body{
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+label{
+    color: black;
+}

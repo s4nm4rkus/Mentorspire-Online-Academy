@@ -1,0 +1,675 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.navbar {
+    background-color: #18527B;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    margin-left: 5rem;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+/* .icon-badge-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+.bx-icon-btns {
+    text-decoration: none;
+    color: white;
+}
+
+.bx-icon-btns:hover {
+    color: #ddd;
+} */
+
+
+.custom-icon {
+    color: #0C517B !important;
+}
+
+.custom-icon:hover {
+    color: #0C517B !important;
+}
+
+.custom-icon:active {
+    color: #0C517B !important;
+}
+
+.btn-custom:active {
+    background-color: #0C517B !important;
+}
+
+.main-content {
+    height: 100vh;
+    /* Full viewport height */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    transition: margin-left 0.3s;
+    /* Smooth transition for the sidebar */
+}
+
+.offcanvas {
+    max-width: 18rem;
+    padding-left: -1rem;
+    background: rgb(24, 82, 120);
+    background: linear-gradient(15deg, rgba(24, 82, 120, 1) 30%, rgba(44, 150, 225, 1) 88%);
+    color: #fff;
+
+}
+
+/* Ensure the backdrop is hidden */
+.offcanvas-backdrop {
+    display: none !important;
+}
+
+.offcanvas-body label {
+    font-weight: lighter;
+    font-size: .7rem;
+}
+
+.btn-custom {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.offcanvas-body .nav-item a {
+    font-weight: 600;
+    color: #fff !important;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.offcanvas-body .nav-item.active .nav-link,
+.offcanvas-body .nav-item.hover .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* White transparent background */
+    color: #fff;
+    /* Change text color to white */
+    padding-left: 1rem;
+    /* Adjust padding left as needed */
+    margin-left: -1rem;
+    /* Expand background color to the left based on sidebar padding */
+    width: 19rem;
+    /* Expand background color to 19rem */
+}
+
+.fullname {
+    color: #fff !important;
+}
+
+.username {
+    color: #fff !important;
+}
+
+body {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+}
+
+label {
+    color: black;
+}
+
+.hanging-image {
+    position: relative;
+    overflow: hidden;
+    height: 100%
+}
+
+.hanging-image img {
+    width: 80%;
+    height: auto;
+    transform: translateY(-100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+}
+
+.circle-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #0C517B !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-container i {
+    font-size: 50px;
+}
+
+.contact-us-icon-container {
+    margin-bottom: 120px;
+}
+
+#blogs-and-news-table_wrapper {
+    background-color: #ffffff;
+}
+
+.single-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.btn-orange-color {
+    background-color: #0C517B !important;
+    color: #fff;
+}
+
+.btn-orange-color:hover {
+    background-color: #0C517B !important;
+    color: #fff !important;
+}
+
+.btn-orange-color:active,
+.btn-orange-color.active {
+    background-color: #0C517B !important;
+}
+
+.btn-orange-color:active,
+.btn-orange-color:focus {
+    background-color: #0C517B !important;
+    color: #fff !important;
+}
+
+.icon-badge-container {
+    position: relative;
+}
+
+.icon-badge-icon {
+    font-size: 30px;
+    position: relative;
+}
+
+.icon-badge {
+    background-color: #0C517B !important;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 9px;
+}
+
+.night-1-fullscreen {
+    width: 1000px !important;
+    position: fixed;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.select2-results__option {
+    color: black !important;
+}
+
+.logoname {
+    font-family: "Genos", sans-serif;
+    position: absolute;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 5rem;
+    margin-left: .8rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.closebtn {
+    color: white;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 86%;
+    font-size: 14px;
+}
+
+.fa-arrow-left {
+    color: white;
+}
+
+.hrnav {
+    margin-top: 8px;
+}
+
+/* New CSS for adjusting the content width */
+.main-content {
+    transition: margin-left 0.3s;
+}
+
+.sidebar-open .main-content {
+    margin-left: 250px;
+    /* Adjust this value to match the sidebar width */
+}
+
+.addcoursecard {
+    background: #36a0ed5c;
+}
+
+.addcoursecard:hover {
+    background: #3aadff89;
+}
+
+/* push notif */
+.push-notification {
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    max-height: 100px;
+    overflow-y: auto;
+    padding: 10px 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    text-align: center;
+}
+.coursedetails {
+    display: flex;
+}
+
+.coursedetails .course_img {
+    margin-left: 2rem;
+    padding: 0;
+}
+
+.emptyactivity {
+    position: absolute;
+    left: 43%;
+    bottom: 25%;
+}
+
+.addactivitybtn {
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+
+.tab2 .imgnav {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.tab2 .docunav {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.inputuploads .uploadfiles {
+    display: flex;
+    justify-content: center;
+}
+
+.uploadfiles .form-control {
+    width: 300px;
+}
+
+.uploadfiles .dropzone {
+    width: 300px;
+}
+
+.tab1 .activitylist {
+    padding-left: 3.9rem;
+}
+
+.course_list .card {
+    width: 15rem;
+    height: 22.1rem;
+}
+
+.course_list .course_img {
+    height: 8.5rem;
+}
+
+.fa-bars {
+    margin-left: 2rem;
+}
+
+.course_list .addcoursecard {
+    width: 15rem;
+    height: 22.1rem;
+}
+
+.addcoursecard i {
+    padding-top: 60%;
+}
+
+.docuhandout .card {
+    width: 14rem;
+    height: 14rem;
+}
+
+.imghandout .card {
+    width: 15rem;
+    height: 12.5rem;
+}
+
+.delimg {
+    position: absolute;
+    top: 10rem;
+    right: .7rem;
+}
+.course_list .row{
+    padding-left: 3%;
+}
+
+.course_details{
+    margin-top: 0;
+    height: 100%;
+}
+
+.main {
+    margin: 5%;
+}
+
+.main .course_list {
+    margin-top: -2%;
+    padding-left: 7%;
+    justify-content: left;
+}
+
+.main .startlabel {
+    margin-top: 5%;
+    line-height: normal;
+    margin-left: 2%;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    justify-content: flex-start;
+}
+.btn-primary{
+    transition: background-color 0.3s ease;
+    background: #2c96e1;
+    color: white;
+    border-color: #2c96e1;
+    font-size: .9rem;
+    padding: 5px 10px  5px 10px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover{
+    background:#32aaff;
+    color: white;
+    border-color: #32aaff;
+    font-size: .9rem;
+    padding: 5px 10px  5px 10px;
+}
+
+.btn-primary:disabled{
+    background:#32aaffbc;
+    color: white;
+    border-color: #32aaff98;
+    font-size: .9rem;
+    padding: 5px 10px  5px 10px;
+    cursor: not-allowed;
+}
+
+.btn-danger{
+    transition: background-color 0.3s ease;
+    background: #f04747;
+    color: white;
+    border-color: #f04747;
+    font-size: .9rem;
+    padding: 5px 10px  5px 10px;
+}
+
+.btn-danger:hover{
+    background: #ff3434;
+    color: white;
+    border-color: #ff3434;
+    font-size: .9rem;
+    padding: 5px 10px  5px 10px;
+}
+
+.btn-danger:disabled{
+    background: #ff34349f;
+    color: white;
+    border-color: #ff343461;
+    font-size: .9rem;
+    padding: 5px 10px  5px 10px;
+    cursor: not-allowed;
+}
+
+.course_details_create{
+    margin-top: 1rem;
+}
+
+
+
+  
+@media (max-width: 991.98px) and (max-width: 768px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .main {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .addcourse {
+        margin: 2%;
+    }
+
+    .main .startlabel {
+        margin-top: .7rem;
+        line-height: normal;
+        margin-left: 1rem;
+        margin-bottom: 0;
+        font-size: 2.5rem; 
+    }
+
+    .coursedetails {
+        display: block;
+    }
+
+    .main,
+    .pc-tab {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main .pc-tab {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .main .courseslabel {
+        margin-left: 1rem;
+    }
+
+    .coursedetails img {
+        justify-content: center;
+        margin-left: 1.1rem;
+        padding: 0;
+    }
+
+    .emptyactivity {
+        position: absolute;
+        left: 34%;
+        bottom: 25%;
+    }
+
+    .addactivity .addactivitybtn {
+        margin-top: 2rem;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .tab2 .imgnav {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .tab2 .docunav {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .inputuploads .uploadfiles {
+        display: block;
+        justify-content: center;
+    }
+
+    .uploadfiles .form-control {
+        width: 100%;
+    }
+
+    .uploadfiles .dropzone {
+        width: 100%;
+    }
+
+    .tab1 .activitylist {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .course_list .card {
+        margin-bottom: 1rem;
+        width: 95%;
+        height: 28.1rem;
+    }
+
+    .course_list .addcoursecard {
+        width: 95%;
+        height: 28.1rem;
+        margin-bottom: 5rem;
+     }
+     .main .course_list{
+        padding-left: 2%;
+        justify-content: center;
+    }
+     .navbar-brand{
+        margin-left: 3rem;
+    }
+
+    .addcoursecard i {
+        padding-top: 40%
+    }
+
+    .course_list .course_img {
+        height: 60%;
+
+    }
+
+    .fa-bars {
+        margin-left: .8rem;
+    }
+
+    .docuhandout .card {
+        width: 12.5rem;
+        height: 13.5rem;
+    }
+
+    .docuhandout {
+        justify-content: center;
+    }
+
+    .imghandout {
+        justify-content: center;
+    }
+
+    .imghandout .card {
+        width: 12.5rem;
+        height: 12rem;
+    }
+
+    .delimg {
+        position: absolute;
+        top: 9.5rem;
+        right: .7rem;
+    }
+    
+
+}
+
+@media only screen and (max-width: 991.98px) {
+    .main{
+        padding-top: 5%;
+    }
+    .addcoursecard i {
+        padding-top: 40%;
+        }
+        .course_list .row{
+            padding-left: 2%;
+        }
+        .main .courseslabel{
+            margin-top: 1%;
+            margin-left: 3%;
+        }   
+        .main .startlabel{
+            margin-top: 3%;
+            line-height: normal;
+            margin-left: -3%;
+            margin-bottom: 0;
+            font-size: 2.3rem; 
+        }
+  }
+  @media only screen and (max-width: 768px) {
+
+    
+
+    .main{
+        padding-top: 7%;
+    }
+    .main .startlabel{
+        margin-top: 3%;
+        line-height: normal;
+        margin-left: 2%;
+        margin-bottom: 0;
+        font-size: 2.5rem; 
+    }
+    .main .course_list .row{
+        padding-left: 0%;
+    }
+    .main .courseslabel{
+        margin-top: 1%;
+        margin-left: -78%;
+        text-align: center;
+    }
+    .coursedetails{
+        margin-top: 2%;
+    }
+    .course_details .course_description{
+        padding-right: 2rem;
+    }
+     .createcourserow{
+        display: block;
+    }
+   
+.course_details_create{
+    margin-top: 0;
+}
+.editbackbtn{
+    margin-top: -.3rem;
+}
+}
+  
+
+

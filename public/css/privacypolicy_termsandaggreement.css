@@ -1,0 +1,13 @@
+.dark-mode .modal-content {
+    background-color: #151515; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.dark-mode .btn-close-white {
+    filter: invert(1); /* Invert color for white close button */
+}
+
+.dark-mode .dark-bg {
+    background-color: #151515; /* Dark background color for modal header */
+}
+

@@ -1,0 +1,9 @@
+.form-check-label {
+    font-family: Arial, sans-serif; /* Change to your preferred font */
+    font-size: 16px; /* Adjust the size as needed */
+    font-style: normal; /* or italic */
+}
+
+.form-check-label a {
+    font-style: italic; /* Italicize the link text */
+}

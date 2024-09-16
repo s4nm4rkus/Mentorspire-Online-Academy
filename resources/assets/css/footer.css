@@ -1,0 +1,14 @@
+.foot_container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  #242323 !important;
+    color: white;
+    text-align: center;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 500px;
+}

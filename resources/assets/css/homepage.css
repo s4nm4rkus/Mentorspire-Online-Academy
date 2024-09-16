@@ -1,0 +1,13 @@
+.monitor_container{
+    background-color: #232222; 
+    margin:0!important; 
+    width:100%!important; 
+    max-width: 100%!important;
+}
+
+.chart_container{
+    background-color: #151515;
+    margin:0!important; 
+    width:100%!important; 
+    max-width: 100%!important;
+}
